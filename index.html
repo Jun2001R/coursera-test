@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cousrea test</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&amp;display=swap"rel="stylesheet">
+    <style>
+        *{
+            font-family: 'Dancing Script', cursive;
+            box-sizing: border-box;
+            
+            
+        }
+        body{
+            background-image: url('https://i.pinimg.com/736x/42/11/83/421183ad16ad430a9c6ee3e91b72974e.jpg');
+        }
+        .block{
+            border: 2px solid blue;
+            margin:1px;
+            background-color: pink;
+            font-size: 20px;
+           font-weight: bolder;
+        }
+        p{
+            background-color:  pink;
+            padding-left: 15px;
+        }
+        .para1{
+            width:100%;
+            margin:auto;
+            margin-top:100px;
+           
+           
+        }
+        .heading{
+            text-align: right;
+         border: 2px solid rgb(6, 187, 6);
+         margin-left: 70%;
+         text-align: center;
+         background-color: rgb(183, 218, 132);
+         margin-top: 0px;
+        }
+        /* #parablock1{
+            float:left;
+            width:47%;
+        }#parablock2{
+            float: left;
+            width:47%;
+        }
+        #parablock3{
+            float:left;
+            width:47%;
+           }  */
+           @media(min-width:992px){
+            .col-lg-4{float: left;
+}
+.col-lg-4{
+    width: 33%;
+}
+ }
+           @media(min-width: 768px) and (max-width: 991px){
+           .col-md-6{
+float: left;   
+           }
+           /* .block2{float:left;} */
+           .col-md-6{
+    width: 49%;
+}
+.col-md-7{
+   clear:left;
+   margin-right: 15px;
+} 
+
+/* .block3{
+    width: 98%;
+    clear:both;
+}
+/* .col-lg-4{
+    float: left; width:49%;
+}
+.col-md-6{
+    clear: left;
+} */
+}     
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;font-weight: bolder;color: blue;font-size:80px;">Our Menu</h1>
+    <div class="para1">
+        <div id="parablock1"class="block col-lg-4 col-md-6">
+            <h2 class="heading">Chicken</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Cumque in dignissimos assumenda quo dolore recusandae. Asperiores 
+                repellendus doloribus, laboriosam consequatur vel praesentium fugiat
+                 doloremque eius ratione perspiciatis voluptatibus provident impedit?</p>
+        </div>
+        <div id="parablock2" class="block col-lg-4 col-md-6">
+            <h2 class="heading">Beef</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                 Cumque in dignissimos assumenda quo dolore recusandae. Asperiores 
+                 repellendus doloribus, laboriosam consequatur vel praesentium fugiat
+                  doloremque eius ratione perspiciatis voluptatibus provident impedit?</p>
+        </div>
+        <div id="parablock3"class="block col-lg-4 col-md-7">
+            <h2 class="heading">Sushi</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Cumque in dignissimos assumenda quo dolore recusandae. Asperiores 
+                repellendus doloribus, laboriosam consequatur vel praesentium fugiat
+                 doloremque eius ratione perspiciatis voluptatibus provident impedit</p>
+        </div>
+    </div>
+</body>
+</html>
